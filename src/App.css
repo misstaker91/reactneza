@@ -1,0 +1,34 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+
+    font-family: 'Taviraj', serif;
+    display: block;
+    background-color: white;
+
+
+}
+
+
+:root {
+    --main-blue: #42a5f5;
+    --main-dark-grey: #4c4c4c;
+    --main-font-400: 400;
+    --font-600: 600;
+    --font-500: 500;
+
+}
+
